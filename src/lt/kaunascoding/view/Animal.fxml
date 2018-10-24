@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="lt.kaunascoding.controller.AnimalController">
+    <HBox>
+        <Label text="Objektas"/>
+        <Label text="Rūšis"/>
+        <Label text="Vardas"/>
+        <Label text="Svoris"/>
+        <Label text="Ūgis"/>
+    </HBox>
+    <HBox>
+        <TextField promptText="Nurodykite Objektą"/>
+        <TextField promptText="Nurodykite rūšį"/>
+        <TextField promptText="Nurodykite vardą"/>
+        <TextField promptText="Nurodykite svorį"/>
+        <TextField promptText="Nurodykite ūgį"/>
+    </HBox>
+    <HBox>
+        <RadioButton text="Walk">
+            <toggleGroup>
+                <ToggleGroup fx:id="actionGroup"/>
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton text="Sneak" toggleGroup="$actionGroup"/>
+        <RadioButton text="Fly" toggleGroup="$actionGroup"/>
+        <Button text="Daryk veiksmą"/>
+    </HBox>
+</VBox>

@@ -1,0 +1,3 @@
+dog mammal sharikas 1 1.1 walk
+cat mammal kasharas 2 2.2 sneak
+pigeon bird Jevgenij-Piotorovich 3 3.3 fly
